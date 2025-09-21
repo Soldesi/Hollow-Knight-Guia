@@ -1,4 +1,3 @@
-
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -11,7 +10,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Hollow-Knight-Guia">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/silksong" element={<SilksongGuide />} />
