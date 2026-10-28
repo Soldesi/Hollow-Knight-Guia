@@ -1,69 +1,114 @@
-# React + TypeScript + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="./public/imagens/Mapas/Icone-mapa.jpg" alt="Hollow Knight" width="110" />
 
-Currently, two official plugins are available:
+# HOLLOW KNIGHT
+### ✦ GUIA INTERATIVO ✦
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*Explore Hallownest. Descubra seus segredos.*
 
-## Expanding the ESLint configuration
+<br />
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<a href="https://soldesi.github.io/Hollow-Knight-Guia/">
+  <img src="./public/imagens/botao-site.svg" alt="Acessar o site" width="340" />
+</a>
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+<br /><br />
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+<img src="./public/imagens/prints/principal.png" alt="Mapa de Hallownest" width="80%" />
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+<br />
+
+<sub>Um guia para aventureiros que desejam desvendar cada canto de Hallownest.</sub>
+
+<br /><br />
+
+</div>
+
+---
+
+## ✦ Sobre
+
+Descubra as regiões, enfrente criaturas lendárias e conheça os personagens que habitam o mundo de **Hollow Knight**. Tudo reunido em um guia interativo, com mapas e informações para acompanhar a sua jornada.
+
+---
+
+##  Prints
+
+<div>
+
+###  Chefes
+
+<img src="./public/imagens/prints/bosses.png" alt="Página dos Chefes" width="720" />
+
+<br />
+
+###  NPCs
+
+<img src="./public/imagens/prints/npcs.png" alt="Página dos NPCs" width="720" />
+
+<br />
+
+###  Itens
+
+<img src="./public/imagens/prints/itens.png" alt="Página dos Itens" width="720" />
+
+<br />
+
+###  Mapas
+
+<img src="./public/imagens/prints/mapas.png" alt="Mapas" width="720" />
+
+<br />
+
+###  Itens no mapa
+
+<img src="./public/imagens/prints/itens-mapa.png" alt="Itens no mapa" width="720" />
+
+</div>
+
+---
+
+## 🛠️ Tecnologias
+
+- **React** + **TypeScript** — interface e tipagem
+- **Vite** — build e servidor de desenvolvimento
+- **GitHub Pages** — hospedagem
+
+---
+
+## 🚀 Rodar localmente
+
+```bash
+# clonar o repositório
+git clone https://github.com/Soldesi/Hollow-Knight-Guia.git
+cd Hollow-Knight-Guia
+
+# instalar dependências
+npm install
+
+# iniciar o servidor de desenvolvimento
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Para gerar a versão de produção:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build
 ```
+
+---
+
+<div align="center">
+
+**Desenvolvido por [Soldesi](https://github.com/Soldesi)**
+
+<sub>Projeto independente de fã, sem vínculo oficial com a Team Cherry.</sub>
+<br />
+<sub>Hollow Knight e Hollow Knight: Silksong são propriedades de seus respectivos titulares.</sub>
+
+<br />
+
+⭐ **Gostou do projeto? Deixe uma estrela no repositório!**
+
+</div>
